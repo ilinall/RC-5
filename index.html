@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Какой-то шифр.3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<div class="container">
+  <h1>RC-5</h1>
+  <div class="input-group">
+      <input type="text" id="key" placeholder="Введите ключ (8-32 символов) или сгенерируйте">
+  </div>
+      <div class="input-group">
+      <label for="text">Текст:</label>
+      <textarea id="text" rows="4"></textarea>
+  </div>
+  
+      <button id="encrypt">Зашифровать</button>
+      <button id="decrypt">Расшифровать</button>
+      <button id="clear">Очистить поле</button>
+      <button id="generate-key">Генератор ключа</button>
+</div>
+<script src="main.js"></script>
+</html>
