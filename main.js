@@ -123,7 +123,7 @@ function base64ToBlocks(base64) {
       (bytes[i + 7] << 24)) >>> 0;
     blocks.push(block);
   }
-  return blocks; // Возвращаем массив блоков
+  return blocks;
 }
 
 function rotateLeft(value, shift) {
